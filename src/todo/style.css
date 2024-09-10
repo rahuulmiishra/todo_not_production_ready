@@ -1,0 +1,10 @@
+.todo-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-row span[data-todo-status="done"] {
+  background-color: red;
+}
